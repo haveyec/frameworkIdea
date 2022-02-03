@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9935DA9F270765A900E3B710 /* SystemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935DA9E270765A900E3B710 /* SystemManager.swift */; };
+		9986C0A426FB7D6A00AF606A /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0A326FB7D6A00AF606A /* CardViewController.swift */; };
+		9986C0A626FBAF7400AF606A /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0A526FBAF7400AF606A /* AddCardViewController.swift */; };
+		9986C0A826FBB34C00AF606A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0A726FBB34C00AF606A /* LoginViewController.swift */; };
+		9986C0AA26FBB36100AF606A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0A926FBB36100AF606A /* RegisterViewController.swift */; };
+		9986C0AC26FBB3DD00AF606A /* DetailCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0AB26FBB3DD00AF606A /* DetailCardViewController.swift */; };
+		9986C0AE26FBB3FE00AF606A /* EditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0AD26FBB3FE00AF606A /* EditCardViewController.swift */; };
+		9986C0B12700AC6300AF606A /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9986C0B02700AC6300AF606A /* SecurityManager.swift */; };
 		998CC1BA26ED720700495ACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1B926ED720700495ACC /* AppDelegate.swift */; };
 		998CC1BC26ED720700495ACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1BB26ED720700495ACC /* SceneDelegate.swift */; };
 		998CC1BE26ED720700495ACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1BD26ED720700495ACC /* ViewController.swift */; };
@@ -15,6 +23,13 @@
 		998CC1C626ED721000495ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998CC1C426ED721000495ACC /* LaunchScreen.storyboard */; };
 		998CC1D126ED721100495ACC /* MEgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1D026ED721100495ACC /* MEgoTests.swift */; };
 		998CC1DC26ED721100495ACC /* MEgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1DB26ED721100495ACC /* MEgoUITests.swift */; };
+		998CC1EA26ED739D00495ACC /* MEgoCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1E926ED739D00495ACC /* MEgoCardCollectionViewCell.swift */; };
+		998CC1EF26ED74EF00495ACC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998CC1EE26ED74EF00495ACC /* UserManager.swift */; };
+		9993E33626EEBC160000D6E3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993E33526EEBC150000D6E3 /* DataModel.swift */; };
+		9993E33826EEBDDF0000D6E3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993E33726EEBDDF0000D6E3 /* DataManager.swift */; };
+		9993E33A26EEC2450000D6E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993E33926EEC2450000D6E3 /* NetworkManager.swift */; };
+		9993E33D26EEC2DC0000D6E3 /* ErrorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993E33C26EEC2DC0000D6E3 /* ErrorVC.swift */; };
+		9993E34026F66A5A0000D6E3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993E33F26F66A5A0000D6E3 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9935DA9E270765A900E3B710 /* SystemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemManager.swift; sourceTree = "<group>"; };
+		9986C0A026FB5F1E00AF606A /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		9986C0A126FB5F3A00AF606A /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		9986C0A226FB623800AF606A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		9986C0A326FB7D6A00AF606A /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		9986C0A526FBAF7400AF606A /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		9986C0A726FBB34C00AF606A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9986C0A926FBB36100AF606A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9986C0AB26FBB3DD00AF606A /* DetailCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardViewController.swift; sourceTree = "<group>"; };
+		9986C0AD26FBB3FE00AF606A /* EditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardViewController.swift; sourceTree = "<group>"; };
+		9986C0B02700AC6300AF606A /* SecurityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
 		998CC1B626ED720700495ACC /* MEgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998CC1B926ED720700495ACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		998CC1BB26ED720700495ACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,14 @@
 		998CC1D726ED721100495ACC /* MEgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		998CC1DB26ED721100495ACC /* MEgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEgoUITests.swift; sourceTree = "<group>"; };
 		998CC1DD26ED721100495ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998CC1E926ED739D00495ACC /* MEgoCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEgoCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		998CC1EE26ED74EF00495ACC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		998CC1F126ED973E00495ACC /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9993E33526EEBC150000D6E3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		9993E33726EEBDDF0000D6E3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9993E33926EEC2450000D6E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9993E33C26EEC2DC0000D6E3 /* ErrorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorVC.swift; sourceTree = "<group>"; };
+		9993E33F26F66A5A0000D6E3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +110,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9986C09F26FB5EDC00AF606A /* Env */ = {
+			isa = PBXGroup;
+			children = (
+				9986C0A026FB5F1E00AF606A /* Dev.xcconfig */,
+				9986C0A126FB5F3A00AF606A /* Release.xcconfig */,
+				9986C0A226FB623800AF606A /* Environment.swift */,
+			);
+			path = Env;
+			sourceTree = "<group>";
+		};
+		9986C0AF2700AB5100AF606A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				998CC1EE26ED74EF00495ACC /* UserManager.swift */,
+				9993E33726EEBDDF0000D6E3 /* DataManager.swift */,
+				9993E33926EEC2450000D6E3 /* NetworkManager.swift */,
+				9993E33F26F66A5A0000D6E3 /* APIManager.swift */,
+				9986C0B02700AC6300AF606A /* SecurityManager.swift */,
+				9935DA9E270765A900E3B710 /* SystemManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		998CC1AD26ED720700495ACC = {
 			isa = PBXGroup;
 			children = (
+				9986C09F26FB5EDC00AF606A /* Env */,
 				998CC1B826ED720700495ACC /* MEgo */,
 				998CC1CF26ED721100495ACC /* MEgoTests */,
 				998CC1DA26ED721100495ACC /* MEgoUITests */,
@@ -99,6 +157,10 @@
 		998CC1B826ED720700495ACC /* MEgo */ = {
 			isa = PBXGroup;
 			children = (
+				9986C0AF2700AB5100AF606A /* Managers */,
+				9993E33B26EEC29B0000D6E3 /* Views */,
+				9993E33426EEBBFF0000D6E3 /* Models */,
+				998CC1F026ED96FA00495ACC /* MISC */,
 				998CC1B926ED720700495ACC /* AppDelegate.swift */,
 				998CC1BB26ED720700495ACC /* SceneDelegate.swift */,
 				998CC1BD26ED720700495ACC /* ViewController.swift */,
@@ -106,6 +168,7 @@
 				998CC1C226ED721000495ACC /* Assets.xcassets */,
 				998CC1C426ED721000495ACC /* LaunchScreen.storyboard */,
 				998CC1C726ED721000495ACC /* Info.plist */,
+				998CC1E926ED739D00495ACC /* MEgoCardCollectionViewCell.swift */,
 			);
 			path = MEgo;
 			sourceTree = "<group>";
@@ -126,6 +189,36 @@
 				998CC1DD26ED721100495ACC /* Info.plist */,
 			);
 			path = MEgoUITests;
+			sourceTree = "<group>";
+		};
+		998CC1F026ED96FA00495ACC /* MISC */ = {
+			isa = PBXGroup;
+			children = (
+				998CC1F126ED973E00495ACC /* MyPlayground.playground */,
+			);
+			path = MISC;
+			sourceTree = "<group>";
+		};
+		9993E33426EEBBFF0000D6E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9993E33526EEBC150000D6E3 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9993E33B26EEC29B0000D6E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9993E33C26EEC2DC0000D6E3 /* ErrorVC.swift */,
+				9986C0A326FB7D6A00AF606A /* CardViewController.swift */,
+				9986C0A526FBAF7400AF606A /* AddCardViewController.swift */,
+				9986C0A726FBB34C00AF606A /* LoginViewController.swift */,
+				9986C0A926FBB36100AF606A /* RegisterViewController.swift */,
+				9986C0AB26FBB3DD00AF606A /* DetailCardViewController.swift */,
+				9986C0AD26FBB3FE00AF606A /* EditCardViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +351,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998CC1EF26ED74EF00495ACC /* UserManager.swift in Sources */,
+				998CC1EA26ED739D00495ACC /* MEgoCardCollectionViewCell.swift in Sources */,
+				9993E34026F66A5A0000D6E3 /* APIManager.swift in Sources */,
 				998CC1BE26ED720700495ACC /* ViewController.swift in Sources */,
+				9993E33826EEBDDF0000D6E3 /* DataManager.swift in Sources */,
+				9993E33A26EEC2450000D6E3 /* NetworkManager.swift in Sources */,
+				9986C0AE26FBB3FE00AF606A /* EditCardViewController.swift in Sources */,
 				998CC1BA26ED720700495ACC /* AppDelegate.swift in Sources */,
+				9935DA9F270765A900E3B710 /* SystemManager.swift in Sources */,
 				998CC1BC26ED720700495ACC /* SceneDelegate.swift in Sources */,
+				9986C0A626FBAF7400AF606A /* AddCardViewController.swift in Sources */,
+				9986C0AA26FBB36100AF606A /* RegisterViewController.swift in Sources */,
+				9986C0A426FB7D6A00AF606A /* CardViewController.swift in Sources */,
+				9986C0AC26FBB3DD00AF606A /* DetailCardViewController.swift in Sources */,
+				9993E33D26EEC2DC0000D6E3 /* ErrorVC.swift in Sources */,
+				9986C0A826FBB34C00AF606A /* LoginViewController.swift in Sources */,
+				9993E33626EEBC160000D6E3 /* DataModel.swift in Sources */,
+				9986C0B12700AC6300AF606A /* SecurityManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +425,7 @@
 /* Begin XCBuildConfiguration section */
 		998CC1DE26ED721100495ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A026FB5F1E00AF606A /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -378,6 +487,7 @@
 		};
 		998CC1DF26ED721100495ACC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A126FB5F3A00AF606A /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -433,6 +543,7 @@
 		};
 		998CC1E126ED721100495ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A026FB5F1E00AF606A /* Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +562,7 @@
 		};
 		998CC1E226ED721100495ACC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A126FB5F3A00AF606A /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +581,7 @@
 		};
 		998CC1E426ED721100495ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A026FB5F1E00AF606A /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +603,7 @@
 		};
 		998CC1E526ED721100495ACC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A126FB5F3A00AF606A /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +625,7 @@
 		};
 		998CC1E726ED721100495ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A026FB5F1E00AF606A /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +645,7 @@
 		};
 		998CC1E826ED721100495ACC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9986C0A126FB5F3A00AF606A /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
